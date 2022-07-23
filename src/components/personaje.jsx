@@ -9,7 +9,7 @@ const Personaje = () => {
   useEffect(() => {
     unicoPersonaje(id, setPersonajes);
     
-  }, []);
+  }, [id]);
 
   
   
